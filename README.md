@@ -16,6 +16,38 @@ Also, you will need some packages installed on Vim or Terminal:
  
  ____________________________
  
+ # Tmux 2.8.x to 2.9.x migration from [this issue](https://github.com/tmux/tmux/issues/1689)
+ 
+ ```
+ ########################################################################   
+#   file: ~/.tmux.conf
+#   version: 2.8.x -> 2.9.x 
+#   note: change to '*-style <style_type>=<value>' 
+#         or in some cases where '*-attr <attribute_val>' change to '*-style  <attribute_val>'
+#   styles:             
+#             message-command-style style
+#             message-style style
+#             mode-style style
+#             pane-active-border-style style
+#             pane-border-style style
+#             status-left-style style
+#             status-right-style style
+#             status-style style
+#             window-active-style style
+#             window-status-activity-style style
+#             window-status-bell-style style
+#             window-status-current-style style
+#             window-status-last-style style
+#             window-status-style style
+#             window-style style
+#
+#######################################################################
+ 
+ ```
+ 
+ 
+ 
+ 
  1. Linux (Ubuntu)
  ![Linux screenshot](Linux_conf/linux.png)
  
