@@ -4,7 +4,15 @@
 For use this configuration files you need Vim and/or Tmux installed on your terminal, and you will need create/update these files:
 
 - .vimrc    (``` yourterminal@console: vim  ~/.vimrc ```)
+   - Plugins
+     - preservim/nerdtree
+     - airblade/vim-gitgutter
+     - Valloric/YouCompleteMe
+     - wakatime/vim-wakatime
 - .tmux.conf (``` yourterminal@console: vim  ~/.tmux.conf ```)
+  - First steps
+     1. Adjust the keys combo to yourself. Like the keys for open new windows. ex: 'ctrl-q' + '-' | '\ '
+     2. Memorize keys for: how to move the coursor over windows and how to resize window panes 
 
 Also, you will need some packages installed on Vim or Terminal:
 
