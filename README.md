@@ -11,7 +11,9 @@ Also, you will need some packages installed on Vim or Terminal:
  - *Vundle* : https://github.com/VundleVim/Vundle.vim
  - *Oh My Zsh* : https://ohmyz.sh
  
-> **_NOTE:_**  *In this file is missing some packages installations and other bash things, but you will figure out how to resolve the errors and warnings asking your friend Google* :mag_right: 
+> **_NOTE:_**  *In this file is missing some packages installations and other bash things, but you will figure out how to resolve the errors and warnings asking your friend Google* :mag_right:
+>
+> You should link your `.bash_profile` with `.bashrc` to see the same terminal styling in tmux. Add '`source ~/.bashrc`' to `.bash_profile` [(ref)](https://askubuntu.com/questions/925881/tmux-colors-not-working).
  
  ____________________________
  
