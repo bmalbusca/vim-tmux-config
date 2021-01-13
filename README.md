@@ -9,7 +9,13 @@ For use this configuration files you need Vim and/or Tmux installed on your term
 Also, you will need some packages installed on Vim or Terminal:
 
  - *Vundle* : https://github.com/VundleVim/Vundle.vim
- - *Oh My Zsh* : https://ohmyz.sh
+ - *Powerline* : https://github.com/powerline/powerline
+ 
+ 
+Other essentials:
+
+ - *Oh My Zsh* : https://ohmyz.sh  (See first if Zsh makes sense to you, over your Bash already configured)
+ 
  
 > **_NOTE:_**  *In this file is missing some packages installations and other bash things, but you will figure out how to resolve the errors and warnings asking your friend Google* :mag_right:
 >
