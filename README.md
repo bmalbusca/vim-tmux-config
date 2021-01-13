@@ -60,7 +60,7 @@ Other essentials:
  
  ```
  
- 
+ # Screenshots
  
  
  1. Linux (Ubuntu)
