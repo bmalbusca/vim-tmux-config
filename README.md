@@ -1,5 +1,4 @@
-# Vim_config_files :blue_book:
-
+# Config. files for your Terminal :blue_book:
 ### Vim configurations files to Linux and MacOS
 
 For use this configuration files you need Vim and/or Tmux installed on your terminal, and you will need create/update these files:
@@ -22,7 +21,7 @@ Also, you will need some packages installed on Vim or Terminal:
  ########################################################################   
 #   file: ~/.tmux.conf
 #   version: 2.8.x -> 2.9.x 
-#   note: change to '*-style <style_type>=<value>' 
+#   note: change '*-<style_type> <value>' to '*-style <style_type>=<value>' 
 #         or in some cases where '*-attr <attribute_val>' change to '*-style  <attribute_val>'
 #   styles:             
 #             message-command-style style
